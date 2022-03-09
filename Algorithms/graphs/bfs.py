@@ -30,7 +30,6 @@ def bfs(graph, seen, q, vertex, res):
 
 
 def bfsOfGraph(v, adj):
-    # code here
     q = deque()
     res = []
     seen = set()
