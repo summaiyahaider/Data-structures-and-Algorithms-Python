@@ -36,3 +36,5 @@ def bfsOfGraph(v, adj):
     for vertex in range(v):
       bfs(adj, seen, q, vertex, res)
     return res
+
+print(bfsOfGraph(5, [[1, 4], [2, 3, 4], [1, 3], [1, 2, 4], [0, 1, 3]]))
