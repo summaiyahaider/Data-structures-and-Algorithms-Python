@@ -44,7 +44,6 @@ class MinHeap:
       tmp = self.heap[smallest]
       self.heap[smallest] = self.heap[index]
       self.heap[index] = tmp
-      
       self.__min_heapify(smallest)
 
   def build_min_heap(self, arr):
